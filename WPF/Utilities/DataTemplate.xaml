@@ -1,0 +1,21 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:vm="clr-namespace:WPF.ViewModel"
+                    xmlns:view="clr-namespace:WPF.Views">
+    <DataTemplate DataType="{x:Type vm:HomeViewModel}">
+        <view:Home/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:CoinViewModel}">
+        <view:Coin/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:AddCoinViewModel}">
+        <view:AddCoin/>
+    </DataTemplate>
+
+    <DataTemplate DataType="{x:Type vm:LoginViewModel}">
+        <view:LoginView/>
+    </DataTemplate>
+
+</ResourceDictionary>
